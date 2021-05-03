@@ -1,0 +1,48 @@
+https://codebeautify.org/jsonviewer/cb7f9568
+
+"Patients": {
+  "w14FKo72BieZwbxwUouTpN7UQm02": {
+    "name": "Naseebullah Ahmadi",
+    "profession": "Student",
+    "gender": "Male",
+    "type": "Patient",
+    "doctors": ["Ernest"],
+    "age": "20",
+    "DOB": "02/06/1997",
+    "address": "122 Atherstone Court",
+    "contactNumber": "07473693312",
+    "profilePicture": "../Images/profile.jpg",
+    "history": {
+      "age": "22",
+      "weight": "53",
+      "height": "172",
+      "bmi": "20.4",
+      "thermometer": "36.7",
+      "calories": "537",
+      "bpm": "87",
+      "fat": "11",
+      "allergies": ["Peanuts", "Penicilin"]
+    },
+    "appointments": [{
+      "date": "25th Jul",
+      "time": "13:00",
+      "type": "Doctor",
+      "name": "Ernest Kamavuako"
+    }],
+    "ecg": [""],
+    "heartSound": [""]
+  },
+
+  "Doctors": {
+  "VoxHFgUEIwRFWg7JTKNXSSoFoMV2": {
+    "name": "Ernest Kamavuako",
+    "gender": "Male",
+    "type": "Doctor",
+    "Patients": ["Naseebullah"],
+    "age": "30",
+    "dob": "20/12/1970",
+    "address": "122 Harrow Street",
+    "contactNumber": "07473033312",
+    "profilePicture": "../Images/profile.jpg"
+  }
+}
